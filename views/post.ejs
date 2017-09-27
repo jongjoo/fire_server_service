@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>fire-values  upload</title>
+    <style>
+    body{
+        font-family:'Courier New';
+        font-size: 12pt;
+        color:white;
+        background-image:url("image/mm_bg_ios.png");
+        background-position:center center;
+        opacity:0.9;
+        background-size: 100%;
+        text-align: center;
+        vertical-align: center;
+        line-height:150%;
+      }
+      </style>
+</head>
+
+<body>
+<center><br><br><br>
+  <img src="image/final_logo.jpg" width=60 height=60>
+    <form enctype="multipart/form-data"  action="/uploads"  method="post">
+<br><br>
+      *가수 :
+      <input type="text" id="musician_name" style="background-color:transparent;" name="musician_name" ><br>
+      그룹 :
+      <input type="text" id="group_name" style="background-color:transparent;" name="group_name" ><br>
+      피처링 :
+      <input type="text" id="featuring_name" style="background-color:transparent;" name="featuring_name" ><br>
+
+      *음악 제목 :
+      <input type="text" id="title"  style="background-color:transparent;" name="title" ><br>
+      가사 :
+      <input type="text" id="lyrics"  style="background-color:transparent;" name="lyrics" ><br>
+      *하이라이트 비디오 :
+      <input type="file" style="background-color:transparent;" name="highlight_video" /><br>
+      *썸네일 이미지 :
+      <input type="file" style="background-color:transparent;" name="thumbnail" /><br>
+      *음원 파일 :
+      <input type="file" style="background-color:transparent;" name="music" /><br>
+
+      장르 :
+      <input type="text" id="genre"  style="background-color:transparent;" name="genre" ><br>
+
+      작사 :
+      <input type="text" id="lyricist" style="background-color:transparent;" name="lyricist" ><br>
+      작곡 :
+      <input type="text" id="composer" style="background-color:transparent;" name="composer" ><br>
+
+      *앨범 제목 :
+      <input type="text" id="album_name" style="background-color:transparent;" name="album_name" ><br>
+      앨범 정보 :
+      <input type="text" id="album_info" style="background-color:transparent;" name="album_info" ><br>
+      발매 일자 :
+      <input type="text" id="sale_date" style="background-color:transparent;" name="sale_date" ><br>
+      *앨범 커버 이미지 :
+      <input type="file"  style="background-color:transparent;"  name="album_image" /><br>
+
+      <br>
+      <input type="submit" value="Upload" name="submit"> <br>
+      <br><b>*은 필수사항입니다.</b>
+    </form>
+</center>
+</body>
+
+
+</html>
+
