@@ -21,7 +21,7 @@ router.route('/')
                 console.log("getConnection error" + error);
                 res.status(500).send(error);
             } else {
-                var sql_Temp = 'select * From fire';
+                var sql_Temp = 'select * From fire_live';
                 connection.query(sql_Temp, 1, function(error, rows) {
                     if (error) {
                         res.status(500).send(error);
